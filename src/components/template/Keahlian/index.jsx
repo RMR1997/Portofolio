@@ -33,13 +33,13 @@ export default function Keahlian() {
       <div className="m-10 flex justify-center items-center text-justify w-full pt-10 pb-20">
         <div className="p-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-x-32 gap-y-52">
           {[
-            { src: "public/images/reactjs.png", title: "ReactJS" },
-            { src: "public/images/nodejs.png", title: "NodeJS" },
-            { src: "public/images/figma.png", title: "Figma" },
-            { src: "public/images/ps.png", title: "Photoshop" },
-            { src: "public/images/corel.png", title: "Coreldraw" },
-            { src: "public/images/elastic.png", title: "Elastic" },
-            { src: "public/images/appdy.png", title: "Appdynamic" },
+            { src: "/images/reactjs.png", title: "ReactJS" },
+            { src: "/images/nodejs.png", title: "NodeJS" },
+            { src: "/images/figma.png", title: "Figma" },
+            { src: "/images/ps.png", title: "Photoshop" },
+            { src: "/images/corel.png", title: "Coreldraw" },
+            { src: "/images/elastic.png", title: "Elastic" },
+            { src: "/images/appdy.png", title: "Appdynamic" },
           ].map((item, index) => (
             <motion.div
               key={index}

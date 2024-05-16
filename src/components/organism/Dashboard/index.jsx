@@ -69,7 +69,7 @@ export default function Dashboard() {
           >
             <a href="#" onClick={handleRotateClick}>
               <img
-                src="public/images/rizki.jpeg"
+                src="/images/rizki.jpeg"
                 alt="Rizki Maulana Rajabi"
                 className="w-full h-full object-cover"
               />
@@ -95,17 +95,17 @@ export default function Dashboard() {
             {[
               {
                 href: "https://github.com/RMR1997",
-                image: "public/images/github.png",
+                image: "/images/github.png",
                 title: "Github",
               },
               {
                 href: "https://gitlab.com/rizkimaulanarajabi",
-                image: "public/images/gitlab.png",
+                image: "/images/gitlab.png",
                 title: "Gitlab",
               },
               {
                 href: "#",
-                image: "public/images/linkin.png",
+                image: "/images/linkin.png",
                 title: "Linkedin",
               },
             ].map((item, index) => (

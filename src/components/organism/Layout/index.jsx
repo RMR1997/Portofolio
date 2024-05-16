@@ -31,7 +31,7 @@ const Header = ({ toggleMenu, isMenuOpen }) => {
           <Image
             size="w-12 md:w-16 lg:w-20"
             align="mt-1"
-            image="public/images/rajabi.png"
+            image="/images/Rajabi.png"
           />
         </a>
         <h1 className="text-2xl md:text-3xl text-white font-bold ml-2 lg:ml-4">
@@ -145,17 +145,17 @@ const Footer = () => {
                     href="https://www.instagram.com/rizkimaulanarajabi/"
                     target="__blank"
                   >
-                    <Image size="" image="public/images/instagram.png" />
+                    <Image size="" image="/images/instagram.png" />
                   </a>
                 </div>
                 <div className="w-14 h-14 text-gray-500 filter invert-[100%]">
                   <a href="https://twitter.com/rizkimr__" target="__blank">
-                    <Image size="" image="public/images/twitter2.png" />
+                    <Image size="" image="/images/twitter2.png" />
                   </a>
                 </div>
                 <div className="w-14 h-14 text-gray-500 filter invert-[100%]">
                   <a href="https://www.facebook.com/khiie71" target="__blank">
-                    <Image size="" image="public/images/facebook.png" />
+                    <Image size="" image="/images/facebook.png" />
                   </a>
                 </div>
               </div>
@@ -167,7 +167,7 @@ const Footer = () => {
               <div className="flex justify-center md:justify-start gap-3 mt-2">
                 <div className="w-14 h-14 text-white filter invert-[100%]">
                   <a href="https://wa.me/6281380284207" target="__blank">
-                    <Image size="" image="public/images/whatsapp.png" />
+                    <Image size="" image="/images/whatsapp.png" />
                   </a>
                 </div>
                 <div className="w-14 h-14 text-gray-500 filter invert-[100%]">
@@ -175,7 +175,7 @@ const Footer = () => {
                     href="mailto:rizkimaulanarajabi13@gmail.com"
                     target="__blank"
                   >
-                    <Image size="" image="public/images/gmail.png" />
+                    <Image size="" image="/images/gmail.png" />
                   </a>
                 </div>
                 <div className="w-14 h-14 text-gray-500 filter invert-[100%]">
@@ -183,7 +183,7 @@ const Footer = () => {
                     href="https://www.linkedin.com/in/rizkimaulanarajabi/"
                     target="__blank"
                   >
-                    <Image size="" image="public/images/linkin.png" />
+                    <Image size="" image="/images/linkin.png" />
                   </a>
                 </div>
               </div>
